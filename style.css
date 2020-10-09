@@ -73,29 +73,17 @@ body {
     margin: 10px;
 }
 
-table {
-    position: relative;
-    width: 80%;
-    margin: 10%;
-    height: 100%;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-th {
-    position: sticky;
-    color: rgb(175, 175, 175);
-    padding: 20px;
-}
-
-td {
-    background-color: rgb(255, 255, 255);
-    padding: 2.5% 0;
-    border-bottom: 1px solid;
-}
-
 .instruments {
     grid-column: 1 / span 4;
+}
+
+.resource-list-item {
+    margin: 10% 0;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
 }
 
 a:link { 
