@@ -75,29 +75,31 @@ a {
 
 table {
     position: relative;
-    width: 100%;
+    width: 80%;
+    margin: 10%;
     height: 100%;
-    background-color: black;
     text-align: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3); */
 }
 
 th {
-    background-color: rgb(9, 29, 46);
     color: rgb(175, 175, 175);
     padding: 20px;
 }
 
 td {
     background-color: rgb(255, 255, 255);
+    padding: 2.5% 0;
+    border-bottom: 1px solid;
 }
 
 .instruments {
-    background-image: url(gradient.png);
+    /* background-image: url(gradient.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     grid-column: 1 / span 4;
 }
 
