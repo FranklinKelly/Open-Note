@@ -7,7 +7,7 @@ body {
     overflow: unset;
 }
 
-a {
+.navbar a {
     color: rgb(0, 0, 0);
 }
 .navbar {
@@ -80,10 +80,10 @@ table {
     height: 100%;
     text-align: center;
     border-collapse: collapse;
-    /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3); */
 }
 
 th {
+    position: sticky;
     color: rgb(175, 175, 175);
     padding: 20px;
 }
@@ -95,11 +95,6 @@ td {
 }
 
 .instruments {
-    /* background-image: url(gradient.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
     grid-column: 1 / span 4;
 }
 
