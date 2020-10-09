@@ -28,12 +28,6 @@ a {
     margin: 10px;
 }
 
-.searchBar {
-    text-align: right;
-    grid-row: 1;
-    grid-column: 4 / span 2;
-}
-
 .searchBar input {
     border-radius: 5px;
     position: relative;
@@ -45,9 +39,6 @@ a {
 .grid-container {
     position: absolute;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
     z-index: -1;
 }
 
