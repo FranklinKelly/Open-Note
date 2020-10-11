@@ -73,6 +73,18 @@ body {
     margin: 10px;
 }
 
+.center-pic {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;    
+}
+
 .instruments {
     grid-column: 1 / span 4;
 }
